@@ -1,1 +1,1 @@
-# valorant-analyzer 12 аскар лох 
+# valorant-analyzer
