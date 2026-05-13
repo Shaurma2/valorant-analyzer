@@ -1,3 +1,5 @@
 /opt/intellij-idea/bin/valorant-analyzer/backend/src/main/java/com/valorant/backend/PlayerController.java
 /opt/intellij-idea/bin/valorant-analyzer/backend/src/main/java/com/valorant/backend/BackendApplication.java
 /opt/intellij-idea/bin/valorant-analyzer/backend/src/main/java/com/valorant/backend/RiotService.java
+/opt/intellij-idea/bin/valorant-analyzer/backend/src/main/java/com/valorant/backend/PlayerRepository.java
+/opt/intellij-idea/bin/valorant-analyzer/backend/src/main/java/com/valorant/backend/Player.java

@@ -1,3 +1,5 @@
 com/valorant/backend/RiotService.class
-com/valorant/backend/PlayerController.class
+com/valorant/backend/Player.class
+com/valorant/backend/PlayerRepository.class
 com/valorant/backend/BackendApplication.class
+com/valorant/backend/PlayerController.class

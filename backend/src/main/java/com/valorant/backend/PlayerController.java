@@ -14,7 +14,7 @@ public class PlayerController {
     }
 
     @GetMapping("/{name}/{tag}")
-    public String getPlayer(@PathVariable String name, @PathVariable String tag) {
+    public Player getPlayer(@PathVariable String name, @PathVariable String tag) throws Exception {
         return riotService.getPlayerByRiotId(name, tag);
     }
 
