@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: valorant_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: valorant_user
+      POSTGRES_PASSWORD: my_password
+      POSTGRES_DB: valorant_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

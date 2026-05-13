@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "*")
 public class PlayerController {
 
+    private final RiotService riotService;
+
+    public PlayerController(RiotService riotService) {
+        this.riotService = riotService;
+    }
+
     @GetMapping("/{name}/{tag}")
     public String getPlayer(@PathVariable String name, @PathVariable String tag) {
-        return "Player: " + name + "#" + tag + " — данные скоро будут здесь!";
+        return riotService.getPlayerByRiotId(name, tag);
     }
 
     @GetMapping("/health")

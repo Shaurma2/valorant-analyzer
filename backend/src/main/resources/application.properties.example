@@ -13,6 +13,5 @@ spring.jpa.show-sql=true
 
 server.port=8080
 
-riot.api.key=RGAPI-27326c11-498c-4d81-aff4-4a3722eff274
-
+riot.api.key=RGAPI-ad1f6369-6433-4712-a755-4751f9fc880b
 
